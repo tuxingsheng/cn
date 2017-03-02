@@ -59,411 +59,6 @@ body {
 }
 
 /*****************************
- *  @keyframes
- *****************************/
-
-@keyframes fly {
-    0% {
-        left: 0;
-        top: 40px;
-    }
-    20% {
-        left: 20%;
-        top: 60px;
-    }
-    40% {
-        left: 40%;
-        top: 40px;
-    }
-    60% {
-        left: 60%;
-        top: 60px;
-    }
-    80% {
-        left: 80%;
-        top: 40px;
-    }
-    100% {
-        left: 100%;
-        top: 50px;
-    }
-}
-
-@-webkit-keyframes fly {
-    0% {
-        left: 0;
-        top: 40px;
-    }
-    20% {
-        left: 20%;
-        top: 60px;
-    }
-    40% {
-        left: 40%;
-        top: 40px;
-    }
-    60% {
-        left: 60%;
-        top: 60px;
-    }
-    80% {
-        left: 80%;
-        top: 40px;
-    }
-    100% {
-        left: 100%;
-        top: 50px;
-    }
-}
-
-@keyframes fly2 {
-    0% {
-        right: 0;
-        top: 240px;
-    }
-    20% {
-        right: 20%;
-        top: 260px;
-    }
-    40% {
-        right: 40%;
-        top: 240px;
-    }
-    60% {
-        right: 60%;
-        top: 260px;
-    }
-    80% {
-        right: 80%;
-        top: 240px;
-    }
-    100% {
-        right: 100%;
-        top: 260px;
-    }
-}
-
-@-webkit-keyframes fly2 {
-    0% {
-        right: 0;
-        top: 240px;
-    }
-    20% {
-        right: 20%;
-        top: 260px;
-    }
-    40% {
-        right: 40%;
-        top: 240px;
-    }
-    60% {
-        right: 60%;
-        top: 260px;
-    }
-    80% {
-        right: 80%;
-        top: 240px;
-    }
-    100% {
-        right: 100%;
-        top: 260px;
-    }
-}
-
-@keyframes fly3 {
-    0% {
-        right: 0;
-        top: 65%;
-    }
-    20% {
-        right: 20%;
-        top: 60%;
-    }
-    40% {
-        right: 40%;
-        top: 65%;
-    }
-    60% {
-        right: 60%;
-        top: 60%;
-    }
-    80% {
-        right: 80%;
-        top: 65%;
-    }
-    100% {
-        right: 100%;
-        top: 60%;
-    }
-}
-
-@-webkit-keyframes fly3 {
-    0% {
-        right: 0;
-        top: 65%;
-    }
-    20% {
-        right: 20%;
-        top: 60%;
-    }
-    40% {
-        right: 40%;
-        top: 65%;
-    }
-    60% {
-        right: 60%;
-        top: 60%;
-    }
-    80% {
-        right: 80%;
-        top: 65%;
-    }
-    100% {
-        right: 100%;
-        top: 60%;
-    }
-}
-
-@keyframes fly4 {
-    0% {
-        left: 0;
-        top: 70%;
-    }
-    20% {
-        left: 20%;
-        top: 75%;
-    }
-    40% {
-        left: 40%;
-        top: 70%;
-    }
-    60% {
-        left: 60%;
-        top: 75%;
-    }
-    80% {
-        left: 80%;
-        top: 70%;
-    }
-    100% {
-        left: 100%;
-        top: 75%;
-    }
-}
-
-@-webkit-keyframes fly4 {
-    0% {
-        left: 0;
-        top: 70%;
-    }
-    20% {
-        left: 20%;
-        top: 75%;
-    }
-    40% {
-        left: 40%;
-        top: 70%;
-    }
-    60% {
-        left: 60%;
-        top: 75%;
-    }
-    80% {
-        left: 80%;
-        top: 70%;
-    }
-    100% {
-        left: 100%;
-        top: 75%;
-    }
-}
-
-@keyframes dragTop {
-    0% {
-        opacity: 0;
-        transform: translateY(-70px)
-    }
-    60% {
-        opacity: 1;
-        transform: translateY(20px)
-    }
-    90% {
-        transform: translateY(-5px)
-    }
-    97% {
-        transform: translateY(-1px)
-    }
-    100% {
-        transform: translateY(0px)
-    }
-}
-
-@-webkit-keyframes dragTop {
-    0% {
-        opacity: 0;
-        -webkit-transform: translateY(-70px)
-    }
-    60% {
-        opacity: 1;
-        -webkit-transform: translateY(20px)
-    }
-    90% {
-        -webkit-transform: translateY(-5px)
-    }
-    97% {
-        -webkit-transform: translateY(-1px)
-    }
-    100% {
-        -webkit-transform: translateY(0px)
-    }
-}
-
-@keyframes dragLeft {
-    0% {
-        opacity: 0;
-        transform: translateX(-70px)
-    }
-    60% {
-        opacity: 1;
-        transform: translateX(20px)
-    }
-    90% {
-        transform: translateX(-5px)
-    }
-    97% {
-        transform: translateX(-1px)
-    }
-    100% {
-        transform: translateX(0px)
-    }
-}
-
-@-webkit-keyframes dragLeft {
-    0% {
-        opacity: 0;
-        -webkit-transform: translateX(-70px)
-    }
-    60% {
-        opacity: 1;
-        -webkit-transform: translateX(20px)
-    }
-    90% {
-        -webkit-transform: translateX(-5px)
-    }
-    97% {
-        -webkit-transform: translateX(-1px)
-    }
-    100% {
-        -webkit-transform: translateX(0px)
-    }
-}
-
-@keyframes move {
-    0% {
-        left: -10%;
-        top: 60%;
-        -webkit-transform: scale(.5);
-        transform: scale(.5);
-    }
-    20% {
-        left: -5%;
-        top: 61%;
-        -webkit-transform: scale(.6);
-        transform: scale(.6);
-    }
-    40% {
-        left: 20%;
-        top: 62%;
-        -webkit-transform: scale(.7);
-        transform: scale(.7);
-    }
-    60% {
-        left: 30%;
-        top: 63%;
-        -webkit-transform: scale(.8);
-        transform: scale(.8);
-    }
-    80% {
-        left: 40%;
-        top: 64%;
-        -webkit-transform: scale(.9);
-        transform: scale(.9);
-    }
-    100% {
-        left: 55%;
-        top: 65%;
-        -webkit-transform: scale(1);
-        transform: scale(1);
-    }
-}
-
-@-webkit-keyframes move {
-    0% {
-        left: -10%;
-        top: 60%;
-        -webkit-transform: scale(.5);
-        transform: scale(.5);
-    }
-    20% {
-        left: -5%;
-        top: 61%;
-        -webkit-transform: scale(.6);
-        transform: scale(.6);
-    }
-    40% {
-        left: 20%;
-        top: 62%;
-        -webkit-transform: scale(.7);
-        transform: scale(.7);
-    }
-    60% {
-        left: 30%;
-        top: 63%;
-        -webkit-transform: scale(.8);
-        transform: scale(.8);
-    }
-    80% {
-        left: 40%;
-        top: 64%;
-        -webkit-transform: scale(.9);
-        transform: scale(.9);
-    }
-    100% {
-        left: 55%;
-        top: 65%;
-        -webkit-transform: scale(1);
-        transform: scale(1);
-    }
-}
-
-@keyframes rotate {
-    0% {
-        -webkit-transform: rotate(0deg);
-        transform: rotate(0deg);
-    }
-    20% {
-        -webkit-transform: rotate(60deg);
-        transform: rotate(60deg);
-    }
-    40% {
-        -webkit-transform: rotate(120deg);
-        transform: rotate(120deg);
-    }
-    60% {
-        -webkit-transform: rotate(180deg);
-        transform: rotate(180deg);
-    }
-    80% {
-        -webkit-transform: rotate(240deg);
-        transform: rotate(240deg);
-    }
-    100% {
-        -webkit-transform: rotate(300deg);
-        transform: rotate(300deg);
-    }
-}
-
-/*****************************
  *  @pages0 - laoding
  *****************************/
 
@@ -479,8 +74,8 @@ body {
 .p0 .c1 {
     width: 80%;
     height: 30%;
-    -webkit-transform: translate(12%,120%);
-    transform: translate(12%,120%);
+    -webkit-transform: translate(12%, 120%);
+    transform: translate(12%, 120%);
 }
 
 .p0 .c1-1 {
@@ -605,7 +200,7 @@ body {
     top: 5%;
     width: 10%;
     height: 30px;
-    background: url("../image/p1/logo.png") no-repeat center;
+    background: url("../image/public/logo.png") no-repeat center;
     background-size: contain;
 }
 
@@ -622,8 +217,6 @@ body {
 .p2 .c1-2,
 .p2 .c1-3 {
     -webkit-animation: dragTop .7s ease-in-out both;
-    -moz-animation: dragTop .7s ease-in-out both;
-    -ms-animation: dragTop .7s ease-in-out both;
     animation: dragTop .7s ease-in-out both;
     height: 100%;
     float: right;
@@ -662,8 +255,6 @@ body {
     background: url("../image/p2/font_3.png") no-repeat top;
     background-size: 45%;
     -webkit-animation-delay: 2.4s;
-    -moz-animation-delay: 2.4s;
-    -ms-animation-delay: 2.4s;
     animation-delay: 2.4s;
 }
 
@@ -717,59 +308,88 @@ body {
     bottom: 2%;
     width: 10%;
     height: 30px;
-    background: url("../image/p2/logo.png") no-repeat center;
+    background: url("../image/public/logo.png") no-repeat center;
     background-size: contain;
 }
-
 
 /*****************************
  *  @pages4
  *****************************/
 
 .p4 {
-    background: url("../image/p3/bg.jpg") no-repeat center;
+    background: url("../image/p4/bg.jpg") no-repeat center;
     background-size: 100% 100%;
 }
 
 .p4 .c1 {
     position: absolute;
-    top: 3%;
     right: 3%;
-    width: 30px;
-    height: 24px;
-    background: url("../image/p3/logo.png") no-repeat center;
+    top: 3%;
+    width: 10%;
+    height: 30px;
+    background: url(../image/public/logo.png) no-repeat center;
     background-size: contain;
 }
 
 .p4 .c2 {
+    -webkit-animation: move2 .7s ease-in-out both;
+    animation: move2 .7s ease-in-out both;
+}
+
+.p4 .c2 {
     position: relative;
-    top: 5%;
-    left: 40px;
+    top: 8%;
+    left: 0;
     width: 250px;
     height: 100px;
-    background: url("../image/p3/title.png") no-repeat center;
+    background: url("../image/p4/title.png") no-repeat center;
     background-size: contain;
-    -webkit-transform: scale(.8);
-    transform: scale(.8);
+    -webkit-animation-delay: .7s;
+    animation-delay: .7s;
+    opacity: 0;
 }
 
-.p4 .c3 {
-    position: absolute;
-    top: 5%;
-    left: 0;
-    width: 100px;
-    height: 140px;
-    background: url("../image/p3/turntable.png") no-repeat left;
-    background-size: contain;
-}
 
-.p4 .c4 {
+.p4 .c2-1 {
     position: absolute;
     top: 120px;
     left: 50px;
     width: 150px;
     height: 38px;
-    background: url("../image/p3/font.png") no-repeat center;
+    background: url("../image/p4/font.png") no-repeat center;
+    background-size: contain;
+}
+
+.p4 .c3 {
+    position: absolute;
+    top: 5%;
+    left: -45px;
+    width: 170px;
+    height: 180px;
+}
+
+.p4 .c3-1 {
+    -webkit-animation: rotate2 .7s ease-in-out both;
+    animation: rotate2 .7s ease-in-out both;
+}
+
+.p4 .c3-1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url("../image/public/table.png") no-repeat left;
+    background-size: contain;
+}
+
+.p4 .c3-2 {
+    position: absolute;
+    top: 0;
+    left: 54px;
+    width: 38px;
+    height: 100%;
+    background: url("../image/public/table_p.png") no-repeat left;
     background-size: contain;
 }
 
@@ -780,13 +400,13 @@ body {
     width: 100%;
 }
 
-.p4 .c5-1{
+.p4 .c5-1 {
     position: relative;
     width: 90px;
     height: 90px;
     margin: 0 auto;
     display: block;
-    background: url("../image/p3/pie.png") no-repeat center;
+    background: url("../image/p4/pie.png") no-repeat center;
     background-size: contain;
 }
 
@@ -796,7 +416,7 @@ body {
     top: -5px;
     width: 120px;
     height: 35px;
-    background: url("../image/p3/pie_1.png") no-repeat center;
+    background: url("../image/p4/pie_1.png") no-repeat center;
     background-size: contain;
 }
 
@@ -806,7 +426,7 @@ body {
     top: 40px;
     width: 125px;
     height: 10px;
-    background: url("../image/p3/pie_2.png") no-repeat center;
+    background: url("../image/p4/pie_2.png") no-repeat center;
     background-size: contain;
 }
 
@@ -816,7 +436,7 @@ body {
     top: 65px;
     width: 90px;
     height: 35px;
-    background: url("../image/p3/pie_3.png") no-repeat center;
+    background: url("../image/p4/pie_3.png") no-repeat center;
     background-size: contain;
 }
 
@@ -826,7 +446,7 @@ body {
     top: 40px;
     width: 135px;
     height: 10px;
-    background: url("../image/p3/pie_4.png") no-repeat center;
+    background: url("../image/p4/pie_4.png") no-repeat center;
     background-size: contain;
 }
 
@@ -842,7 +462,7 @@ body {
 .p4 .c6-1 {
     width: 100%;
     height: 40%;
-    background: url(../image/p3/font_a.png) no-repeat center;
+    background: url(../image/p4/font_a.png) no-repeat center;
     background-size: contain;
     margin-bottom: 5%;
 }
@@ -850,7 +470,7 @@ body {
 .p4 .c6-2 {
     width: 100%;
     height: 50%;
-    background: url(../image/p3/tree.png) no-repeat center;
+    background: url(../image/p4/tree.png) no-repeat center;
     background-size: contain;
 }
 
@@ -858,11 +478,7 @@ body {
 
 
 
-
-
-
-
-.p4 {
+.p3 {
     background-color: #a57eff;
 }
 
