@@ -232,8 +232,8 @@ body {
 
 .p2 .c1-1 {
     width: 30%;
-    background: url("../image/p2/font_1.png") no-repeat center;
-    background-size: contain;
+    background: url("../image/p2/font_1.png") no-repeat top;
+    background-size: 60%;
     -webkit-animation-delay: .8s;
     -moz-animation-delay: .8s;
     -ms-animation-delay: .8s;
@@ -242,7 +242,7 @@ body {
 
 .p2 .c1-2 {
     width: 45%;
-    background: url("../image/p2/font_2.png") no-repeat center;
+    background: url("../image/p2/font_2.png") no-repeat top;
     background-size: contain;
     -webkit-animation-delay: 1.6s;
     -moz-animation-delay: 1.6s;
