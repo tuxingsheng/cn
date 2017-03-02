@@ -170,6 +170,114 @@ body {
     }
 }
 
+@keyframes fly3 {
+    0% {
+        right: 0;
+        top: 65%;
+    }
+    20% {
+        right: 20%;
+        top: 60%;
+    }
+    40% {
+        right: 40%;
+        top: 65%;
+    }
+    60% {
+        right: 60%;
+        top: 60%;
+    }
+    80% {
+        right: 80%;
+        top: 65%;
+    }
+    100% {
+        right: 100%;
+        top: 60%;
+    }
+}
+
+@-webkit-keyframes fly3 {
+    0% {
+        right: 0;
+        top: 65%;
+    }
+    20% {
+        right: 20%;
+        top: 60%;
+    }
+    40% {
+        right: 40%;
+        top: 65%;
+    }
+    60% {
+        right: 60%;
+        top: 60%;
+    }
+    80% {
+        right: 80%;
+        top: 65%;
+    }
+    100% {
+        right: 100%;
+        top: 60%;
+    }
+}
+
+@keyframes fly4 {
+    0% {
+        left: 0;
+        top: 70%;
+    }
+    20% {
+        left: 20%;
+        top: 75%;
+    }
+    40% {
+        left: 40%;
+        top: 70%;
+    }
+    60% {
+        left: 60%;
+        top: 75%;
+    }
+    80% {
+        left: 80%;
+        top: 70%;
+    }
+    100% {
+        left: 100%;
+        top: 75%;
+    }
+}
+
+@-webkit-keyframes fly4 {
+    0% {
+        left: 0;
+        top: 70%;
+    }
+    20% {
+        left: 20%;
+        top: 75%;
+    }
+    40% {
+        left: 40%;
+        top: 70%;
+    }
+    60% {
+        left: 60%;
+        top: 75%;
+    }
+    80% {
+        left: 80%;
+        top: 70%;
+    }
+    100% {
+        left: 100%;
+        top: 75%;
+    }
+}
+
 @keyframes dragTop {
     0% {
         opacity: 0;
@@ -207,6 +315,85 @@ body {
     }
     100% {
         -webkit-transform: translateY(0px)
+    }
+}
+
+@keyframes dragLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-70px)
+    }
+    60% {
+        opacity: 1;
+        transform: translateX(20px)
+    }
+    90% {
+        transform: translateX(-5px)
+    }
+    97% {
+        transform: translateX(-1px)
+    }
+    100% {
+        transform: translateX(0px)
+    }
+}
+
+@-webkit-keyframes dragLeft {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateX(-70px)
+    }
+    60% {
+        opacity: 1;
+        -webkit-transform: translateX(20px)
+    }
+    90% {
+        -webkit-transform: translateX(-5px)
+    }
+    97% {
+        -webkit-transform: translateX(-1px)
+    }
+    100% {
+        -webkit-transform: translateX(0px)
+    }
+}
+
+@keyframes move {
+    0% {
+        left: -10%;
+        top: 60%;
+        -webkit-transform: scale(.5);
+        transform: scale(.5);
+    }
+    20% {
+        left: -5%;
+        top: 61%;
+        -webkit-transform: scale(.6);
+        transform: scale(.6);
+    }
+    40% {
+        left: 20%;
+        top: 62%;
+        -webkit-transform: scale(.7);
+        transform: scale(.7);
+    }
+    60% {
+        left: 30%;
+        top: 63%;
+        -webkit-transform: scale(.8);
+        transform: scale(.8);
+    }
+    80% {
+        left: 40%;
+        top: 64%;
+        -webkit-transform: scale(.9);
+        transform: scale(.9);
+    }
+    100% {
+        left: 55%;
+        top: 65%;
+        -webkit-transform: scale(1);
+        transform: scale(1);
     }
 }
 
@@ -297,8 +484,120 @@ body {
 }
 
 .p2 {
-    background-color: #ff6129;
+    background: url("../image/p2/bg.jpg") no-repeat center;
+    background-size: 100% 100%;
 }
+
+.p2 .c2 {
+    -webkit-animation: dragTop .7s ease-in-out both;
+    -moz-animation: dragTop .7s ease-in-out both;
+    -ms-animation: dragTop .7s ease-in-out both;
+    animation: dragTop .7s ease-in-out both;
+}
+
+.p2 .c3 {
+    -webkit-animation: dragLeft .7s ease-in-out both;
+    -moz-animation: dragLeft .7s ease-in-out both;
+    -ms-animation: dragLeft .7s ease-in-out both;
+    animation: dragLeft .7s ease-in-out both;
+}
+
+.p2 .c1 {
+    position: absolute;
+    top: 10%;
+    right: 25%;
+    width: 30px;
+    height: 24px;
+    background: url("../image/p2/font_a.png") no-repeat center;
+    background-size: contain;
+}
+
+.p2 .c2 {
+    position: absolute;
+    top: 45px;
+    left: 2px;
+    width: 20px;
+    height: 180px;
+    background: url("../image/p2/font.png") no-repeat center;
+    background-size: contain;
+    -webkit-animation-delay: .8s;
+    -moz-animation-delay: .8s;
+    -ms-animation-delay: .8s;
+    animation-delay: .8s;
+}
+
+.p2 .c3 {
+    position: absolute;
+    top: 0;
+    right: 50px;
+    width: 150px;
+    height: 230px;
+    background: url("../image/p2/font_o.png") no-repeat center;
+    background-size: contain;
+    -webkit-animation-delay: 1.6s;
+    -moz-animation-delay: 1.6s;
+    -ms-animation-delay: 1.6s;
+    animation-delay: 1.6s;
+}
+
+.p2 .c4 {
+    position: absolute;
+    right: 0;
+    top: 65%;
+    width: 21px;
+    height: 16px;
+    background: url("../image/p2/swallow_big.png") no-repeat center;
+    background-size: contain;
+    -webkit-animation: fly3 5s infinite linear;
+    -moz-animation: fly3 5s infinite linear;
+    -ms-animation: fly3 5s infinite linear;
+    animation: fly3 5s infinite linear;
+}
+
+.p2 .c5 {
+    position: absolute;
+    left: 0;
+    top: 75%;
+    width: 16px;
+    height: 13px;
+    background: url("../image/p2/swallow_small.png") no-repeat center;
+    background-size: contain;
+    -webkit-animation: fly4 4s infinite linear;
+    -moz-animation: fly4 4s infinite linear;
+    -ms-animation: fly4 4s infinite linear;
+    animation: fly4 4s infinite linear;
+}
+
+.p2 .c6 {
+    position: absolute;
+    left: 55%;
+    top: 65%;
+    width: 120px;
+    height: 160px;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    background: url("../image/p2/character.png") no-repeat center;
+    background-size: contain;
+    -webkit-animation: move 4s linear;
+    -moz-animation: move 4s linear;
+    -ms-animation: move 4s linear;
+    animation: move 4s linear;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .p3 {
     background-color: #2bffc7;
