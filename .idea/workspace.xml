@@ -2,20 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a2192cae-a066-4806-87ee-84ceb358ec97" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/image/p0/bg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/image/p0/font.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/image/p0/loading.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/image/p0/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/image/p1/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/image/p2/font_1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/image/p2/font_2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/image/p2/font_3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/image/p1/bg.jpg" afterPath="$PROJECT_DIR$/src/image/p1/bg.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/image/p1/foot.png" afterPath="$PROJECT_DIR$/src/image/p1/foot.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/image/p2/logo.png" afterPath="$PROJECT_DIR$/src/image/p2/logo.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/index.css" afterPath="$PROJECT_DIR$/src/css/index.css" />
     </list>
     <ignored path="cn.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -105,8 +92,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="589">
-              <caret line="70" column="16" selection-start-line="70" selection-start-column="16" selection-end-line="70" selection-end-column="16" />
+            <state relative-caret-position="183">
+              <caret line="93" column="47" selection-start-line="93" selection-start-column="47" selection-end-line="93" selection-end-column="47" />
               <folding />
             </state>
           </provider>
@@ -330,15 +317,15 @@
       <updated>1488364797090</updated>
       <workItem from="1488364799816" duration="2002000" />
       <workItem from="1488376092089" duration="538000" />
-      <workItem from="1488447239414" duration="7809000" />
+      <workItem from="1488447239414" duration="7982000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10349000" />
+    <option name="totallyTimeSpent" value="10522000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1932" height="1048" extended-state="1" />
+    <frame x="-9" y="-9" width="1932" height="1048" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16534181" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -669,8 +656,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="70" column="16" selection-start-line="70" selection-start-column="16" selection-end-line="70" selection-end-column="16" />
+        <state relative-caret-position="183">
+          <caret line="93" column="47" selection-start-line="93" selection-start-column="47" selection-end-line="93" selection-end-column="47" />
           <folding />
         </state>
       </provider>

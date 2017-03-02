@@ -82,6 +82,8 @@
     var loading = document.getElementById('loading');
     var loadNum = document.getElementById('loadNum');
 
+    var autoPlay, interval, fullpage;
+
     var t = setInterval(function () {
         num += Math.ceil(Math.random() * 10);
         if (num >= 100) {
@@ -90,31 +92,32 @@
             loadNum.innerHTML = num;
             setTimeout(function () {
                 loading.style.display = 'none';
+                fullpage = new FullPage({
+                    id: 'cn',
+                    slideTime: 500,                                 // time of slide
+                    effect: {                                       // slide effect
+                        transform: {
+                            translate: 'Y',					        // 'X'|'Y'|'XY'|'none'
+                            scale: [1, 1],					        // [scalefrom, scaleto]
+                            rotate: [0, 0]					        // [rotatefrom, rotateto]
+                        },
+                        opacity: [0, 1]                             // [opacityfrom, opacityto]
+                    },
+                    mode: 'touch,wheel',                            // mode of fullpage
+                    easing: 'ease',
+                    callback: function (index, currentPage) {       // callback when pageChange
+                        //index = index + 1 > 3 ? 0 : index + 1;
+                        //autoPlay(index);
+                    }
+                });
             }, lazy);
         }
         loadNum.innerHTML = num;
     }, rate);
 
 
-    var autoPlay, interval;
-    var fullpage = new FullPage({
-        id: 'cn',
-        slideTime: 500,                                 // time of slide
-        effect: {                                       // slide effect
-            transform: {
-                translate: 'Y',					        // 'X'|'Y'|'XY'|'none'
-                scale: [1, 1],					        // [scalefrom, scaleto]
-                rotate: [0, 0]					        // [rotatefrom, rotateto]
-            },
-            opacity: [0, 1]                             // [opacityfrom, opacityto]
-        },
-        mode: 'touch,wheel',                            // mode of fullpage
-        easing: 'ease',
-        callback: function (index, currentPage) {       // callback when pageChange
-            //index = index + 1 > 3 ? 0 : index + 1;
-            //autoPlay(index);
-        }
-    });
+
+
     //    autoPlay = function (to) {
     //        clearTimeout(interval);
     //        interval = setTimeout(function () {
