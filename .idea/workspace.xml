@@ -2,13 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a2192cae-a066-4806-87ee-84ceb358ec97" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/image/p2/bg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/image/p2/character.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/image/p2/font.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/image/p2/font_a.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/image/p2/font_o.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/image/p2/swallow_big.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/image/p2/swallow_small.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/image/p3/bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/image/p3/font.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/image/p3/font_a.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/image/p3/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/image/p3/pie.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/image/p3/pie_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/image/p3/pie_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/image/p3/pie_3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/image/p3/pie_4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/image/p3/title.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/image/p3/tree.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/image/p3/turntable.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/image/p2/font_a.png" afterPath="$PROJECT_DIR$/src/image/p2/logo.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/index.css" afterPath="$PROJECT_DIR$/src/css/index.css" />
@@ -35,8 +41,8 @@
       <file leaf-file-name="index.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/css/index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5">
-              <caret line="580" column="29" selection-start-line="580" selection-start-column="29" selection-end-line="580" selection-end-column="29" />
+            <state vertical-scroll-proportion="0.2517321">
+              <caret line="719" column="13" selection-start-line="719" selection-start-column="13" selection-end-line="719" selection-end-column="13" />
               <folding>
                 <element signature="e#425#485#0" expanded="false" />
                 <element signature="e#502#630#0" expanded="false" />
@@ -55,21 +61,24 @@
                 <element signature="e#4017#4387#0" expanded="false" />
                 <element signature="e#4389#4712#0" expanded="false" />
                 <element signature="e#4714#5085#0" expanded="false" />
-                <element signature="e#5912#6007#0" expanded="false" />
-                <element signature="e#6026#6267#0" expanded="false" />
-                <element signature="e#6277#6602#0" expanded="false" />
-                <element signature="e#6612#6943#0" expanded="false" />
-                <element signature="e#6953#7136#0" expanded="false" />
-                <element signature="e#7146#7510#0" expanded="false" />
-                <element signature="e#7520#7888#0" expanded="false" />
-                <element signature="e#7894#7989#0" expanded="false" />
-                <element signature="e#7999#8199#0" expanded="false" />
-                <element signature="e#8209#8413#0" expanded="false" />
-                <element signature="e#8423#8609#0" expanded="false" />
-                <element signature="e#8619#8925#0" expanded="false" />
-                <element signature="e#8935#9247#0" expanded="false" />
-                <element signature="e#9257#9623#0" expanded="false" />
-                <element signature="e#9633#10000#0" expanded="false" />
+                <element signature="e#5087#5831#0" expanded="false" />
+                <element signature="e#5833#6585#0" expanded="false" />
+                <element signature="e#6667#6762#0" expanded="false" />
+                <element signature="e#6781#7022#0" expanded="false" />
+                <element signature="e#7032#7357#0" expanded="false" />
+                <element signature="e#7367#7698#0" expanded="false" />
+                <element signature="e#7708#7891#0" expanded="false" />
+                <element signature="e#7901#8265#0" expanded="false" />
+                <element signature="e#8275#8643#0" expanded="false" />
+                <element signature="e#8725#8820#0" expanded="false" />
+                <element signature="e#8830#9030#0" expanded="false" />
+                <element signature="e#9040#9244#0" expanded="false" />
+                <element signature="e#9254#9438#0" expanded="false" />
+                <element signature="e#9448#9754#0" expanded="false" />
+                <element signature="e#9764#10076#0" expanded="false" />
+                <element signature="e#10086#10452#0" expanded="false" />
+                <element signature="e#10462#10829#0" expanded="false" />
+                <element signature="e#10839#11228#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -78,8 +87,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-14.965517">
-              <caret line="27" column="22" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
+            <state vertical-scroll-proportion="-12.413794">
+              <caret line="27" column="28" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -184,7 +193,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="p2" />
+              <option name="myItemId" value="p3" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -206,7 +215,25 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="p1" />
+              <option name="myItemId" value="p2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cn" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cn" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="image" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -247,6 +274,7 @@
       <recent name="C:\Users\Administrator\Desktop\cn\src\image\p1" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\cn\src\image\p3" />
       <recent name="C:\Users\Administrator\Desktop\cn\src\image\p2" />
       <recent name="C:\Users\Administrator\Desktop\cn\src\image\p1" />
       <recent name="C:\Users\tuxingsheng\Desktop\cn\src\image" />
@@ -389,11 +417,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/image/p2/font_a.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/image/p2/font.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -414,23 +437,83 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/image/p2/character.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/image/p2/logo.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/image/p3/title.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/image/p3/pie.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/image/p3/pie_1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/image/p3/pie_2.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/image/p3/pie_3.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/image/p3/turntable.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/image/p3/pie_4.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/image/p3/logo.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/image/p3/font.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/image/p3/font_a.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.965517">
-          <caret line="27" column="22" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
+        <state vertical-scroll-proportion="-12.413794">
+          <caret line="27" column="28" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/image/p2/character.png">
+    <entry file="file://$PROJECT_DIR$/src/image/p3/tree.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5">
-          <caret line="580" column="29" selection-start-line="580" selection-start-column="29" selection-end-line="580" selection-end-column="29" />
+        <state vertical-scroll-proportion="0.2517321">
+          <caret line="719" column="13" selection-start-line="719" selection-start-column="13" selection-end-line="719" selection-end-column="13" />
           <folding>
             <element signature="e#425#485#0" expanded="false" />
             <element signature="e#502#630#0" expanded="false" />
@@ -449,21 +532,24 @@
             <element signature="e#4017#4387#0" expanded="false" />
             <element signature="e#4389#4712#0" expanded="false" />
             <element signature="e#4714#5085#0" expanded="false" />
-            <element signature="e#5912#6007#0" expanded="false" />
-            <element signature="e#6026#6267#0" expanded="false" />
-            <element signature="e#6277#6602#0" expanded="false" />
-            <element signature="e#6612#6943#0" expanded="false" />
-            <element signature="e#6953#7136#0" expanded="false" />
-            <element signature="e#7146#7510#0" expanded="false" />
-            <element signature="e#7520#7888#0" expanded="false" />
-            <element signature="e#7894#7989#0" expanded="false" />
-            <element signature="e#7999#8199#0" expanded="false" />
-            <element signature="e#8209#8413#0" expanded="false" />
-            <element signature="e#8423#8609#0" expanded="false" />
-            <element signature="e#8619#8925#0" expanded="false" />
-            <element signature="e#8935#9247#0" expanded="false" />
-            <element signature="e#9257#9623#0" expanded="false" />
-            <element signature="e#9633#10000#0" expanded="false" />
+            <element signature="e#5087#5831#0" expanded="false" />
+            <element signature="e#5833#6585#0" expanded="false" />
+            <element signature="e#6667#6762#0" expanded="false" />
+            <element signature="e#6781#7022#0" expanded="false" />
+            <element signature="e#7032#7357#0" expanded="false" />
+            <element signature="e#7367#7698#0" expanded="false" />
+            <element signature="e#7708#7891#0" expanded="false" />
+            <element signature="e#7901#8265#0" expanded="false" />
+            <element signature="e#8275#8643#0" expanded="false" />
+            <element signature="e#8725#8820#0" expanded="false" />
+            <element signature="e#8830#9030#0" expanded="false" />
+            <element signature="e#9040#9244#0" expanded="false" />
+            <element signature="e#9254#9438#0" expanded="false" />
+            <element signature="e#9448#9754#0" expanded="false" />
+            <element signature="e#9764#10076#0" expanded="false" />
+            <element signature="e#10086#10452#0" expanded="false" />
+            <element signature="e#10462#10829#0" expanded="false" />
+            <element signature="e#10839#11228#0" expanded="false" />
           </folding>
         </state>
       </provider>
