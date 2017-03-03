@@ -125,22 +125,23 @@
                     mode: 'touch,wheel',                            // mode of fullpage
                     easing: 'ease',
                     callback: function (index, currentPage) {       // callback when pageChange
-                        //index = index + 1 > 3 ? 0 : index + 1;
-                        //autoPlay(index);
+//                        index = index + 1 > 3 ? 0 : index + 1;
+//                        autoPlay(index);
                     }
                 });
+
+//                autoPlay = function (to) {
+//                    clearTimeout(interval);
+//                    interval = setTimeout(function () {
+//                        fullpage.go(to);
+//                    }, 3000);
+//                };
+//                interval = setTimeout(function () {
+//                    fullpage.go(fullpage.currentPage() + 1);
+//                }, 3000);
             }, lazy);
         }
         loadNum.innerHTML = num;
     }, rate);
-    //    autoPlay = function (to) {
-    //        clearTimeout(interval);
-    //        interval = setTimeout(function () {
-    //            fullpage.go(to);
-    //        }, 3000);
-    //    };
-    //    interval = setTimeout(function () {
-    //        fullpage.go(fullpage.currentPage() + 1);
-    //    }, 3000);
 </script>
 </html>
