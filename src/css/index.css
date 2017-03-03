@@ -317,7 +317,7 @@ body {
  *****************************/
 
 .p3 {
-    background: url("../image/p3/bg.jpg") no-repeat center;
+    background: url("../image/public/bg.jpg") no-repeat center;
     background-size: 100% 100%;
 }
 
@@ -464,7 +464,7 @@ body {
  *****************************/
 
 .p4 {
-    background: url("../image/p4/bg.jpg") no-repeat center;
+    background: url("../image/public/bg.jpg") no-repeat center;
     background-size: 100% 100%;
 }
 
@@ -643,8 +643,182 @@ body {
     background-size: contain;
 }
 
+/*****************************
+ *  @pages7
+ *****************************/
 
+.p7 {
+    background: url("../image/public/bg.jpg") no-repeat center;
+    background-size: 100% 100%;
+}
 
+.p7 .c1 {
+    position: absolute;
+    right: 3%;
+    top: 3%;
+    width: 10%;
+    height: 30px;
+    background: url(../image/public/logo.png) no-repeat center;
+    background-size: contain;
+}
+
+.p7 .c2 {
+    -webkit-animation: move2 .7s ease-in-out both;
+    animation: move2 .7s ease-in-out both;
+}
+
+.p7 .c2 {
+    position: relative;
+    top: 8%;
+    left: 0;
+    width: 250px;
+    height: 100px;
+    background: url("../image/p7/title.png") no-repeat center;
+    background-size: contain;
+    -webkit-animation-delay: .7s;
+    animation-delay: .7s;
+    opacity: 0;
+}
+
+.p7 .c3 {
+    position: absolute;
+    top: 5%;
+    left: -45px;
+    width: 170px;
+    height: 180px;
+}
+
+.p7 .c3-1 {
+    -webkit-animation: rotate2 .7s ease-in-out both;
+    animation: rotate2 .7s ease-in-out both;
+}
+
+.p7 .c3-1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url("../image/public/table.png") no-repeat left;
+    background-size: contain;
+}
+
+.p7 .c3-2 {
+    position: absolute;
+    top: 0;
+    left: 54px;
+    width: 38px;
+    height: 100%;
+    background: url("../image/public/table_p.png") no-repeat left;
+    background-size: contain;
+}
+
+.p7 .c4 {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 80%;
+    height: 62%;
+    padding: 0 10%;
+}
+
+.p7 .c4-1,
+.p7 .c4-3 {
+    -webkit-animation: move4 .7s ease-in-out both;
+    animation: move4 .7s ease-in-out both;
+    opacity: 0;
+}
+
+.p7 .c4-1 {
+    width: 100%;
+    height: 10%;
+    background: url("../image/p7/stage_1.png") no-repeat center;
+    background-size: contain;
+    -webkit-animation-delay: .7s;
+    animation-delay: .7s;
+}
+
+.p7 .c4-2 {
+    -webkit-animation: opacityd .7s ease-in-out both;
+    animation: opacityd .7s ease-in-out both;
+}
+
+.p7 .c4-2 {
+    width: 100%;
+    height: 40%;
+    -webkit-animation-delay: 1.4s;
+    animation-delay: 1.4s;
+}
+
+.p7 .c4-2 > div {
+    width: 33%;
+    height: 100%;
+    float: left;
+}
+
+.p7 .c4-2-i {
+    width: 100%;
+    height: 60%;
+}
+
+.p7 .c4-2-t {
+    width: 100%;
+    height: 40%;
+}
+
+.p7 .c4-2-t-1 {
+    background: url("../image/p7/stage_1_1_t.png") no-repeat center;
+    background-size: 70%;
+}
+
+.p7 .c4-2-t-2 {
+    background: url("../image/p7/stage_1_2_t.png") no-repeat center;
+    background-size: 70%;
+}
+
+.p7 .c4-2-t-3 {
+    background: url("../image/p7/stage_1_3_t.png") no-repeat center;
+    background-size: 100%;
+}
+
+.p7 .c4-3 {
+    width: 100%;
+    height: 10%;
+    background: url("../image/p7/stage_2.png") no-repeat center;
+    background-size: contain;
+    -webkit-animation-delay: .7s;
+    animation-delay: .7s;
+}
+
+.p7 .c4-4 {
+    -webkit-animation: opacityd .7s ease-in-out both;
+    animation: opacityd .7s ease-in-out both;
+}
+
+.p7 .c4-4 {
+    width: 100%;
+    height: 40%;
+    -webkit-animation-delay: 1.4s;
+    animation-delay: 1.4s;
+}
+
+.p7 .c4-4 > div {
+    float: left;
+    height: 100%;
+}
+
+.p7 .c4-4-1 {
+    width: 40%;
+    background: url("../image/p7/stage_2_1.png") no-repeat center;
+    background-size: contain;
+}
+
+.p7 .c4-4-2 {
+    margin-left: 5%;
+    width: 55%;
+    background: url("../image/p7/stage_2_2.png") no-repeat center;
+    background-size: contain;
+}
 
 
 
