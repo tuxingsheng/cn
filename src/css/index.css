@@ -428,6 +428,8 @@ body {
     height: 10%;
     background: url("../image/p3/stage_1.png") no-repeat center;
     background-size: contain;
+    -webkit-animation-delay: .7s;
+    animation-delay: .7s;
 }
 
 .p3 .c4-2 {
@@ -444,6 +446,8 @@ body {
     height: 10%;
     background: url("../image/p3/stage_2.png") no-repeat center;
     background-size: contain;
+    -webkit-animation-delay: .7s;
+    animation-delay: .7s;
 }
 
 .p3 .c4-4 {
