@@ -61,6 +61,9 @@ body {
     .p8 .c3-2 {
         top: 14%!important;
     }
+    .p7 .c4-3-1-1 {
+        top: -25%!important;
+    }
 }
 
 @media screen and (min-device-width: 321px) and (max-device-width: 375px) and (min-device-height: 569px) and (max-device-height: 667px) {
@@ -93,10 +96,13 @@ body {
     .p8 .c3-2 {
         top: 14%!important;
     }
+    .p7 .c4-3-1-1 {
+        top: -25%!important;
+    }
 }
 
 /* 特殊处理 */
-@media screen and (max-device-width: 360px) and (max-device-height: 640px) {
+@media screen and (device-width: 360px) and (device-height: 640px) {
     .p3 .c2,
     .p4 .c2,
     .p5 .c2,
@@ -104,6 +110,9 @@ body {
     .p7 .c2,
     .p8 .c2 {
         left: -5%!important;
+    }
+    .p7 .c4-3-1-1 {
+        top: -25%!important;
     }
 }
 
@@ -136,6 +145,9 @@ body {
     .p7 .c3-2,
     .p8 .c3-2 {
         top: 14%!important;
+    }
+    .p7 .c4-3-1-1 {
+        top: -25%!important;
     }
 }
 
@@ -1336,6 +1348,7 @@ body {
 }
 
 .p7 .c4-2-1 {
+    position: relative;
     width: 30%;
     background: url("../image/p7/stage_1_1.png") no-repeat left;
     background-size: 80%;
@@ -1344,6 +1357,42 @@ body {
     -webkit-animation-delay: 1.4s;
     animation-delay: 1.4s;
 }
+
+.p7 .c4-2-1-1,
+.p7 .c4-2-1-2,
+.p7 .c4-2-1-3 {
+    position: absolute;
+    top: 33%;
+    width: 14px;
+    height: 14px;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    -webkit-animation: boost .7s ease-in-out both;
+    animation: boost .7s ease-in-out both;
+    margin: 0 1px;
+}
+
+.p7 .c4-2-1-1 {
+    left: 20%;
+    background: #FFE200;
+    -webkit-animation-delay: 2.8s;
+    animation-delay: 2.8s;
+}
+
+.p7 .c4-2-1-2 {
+    left: 35%;
+    background: #E70012;
+    -webkit-animation-delay: 3.5s;
+    animation-delay: 3.5s;
+}
+
+.p7 .c4-2-1-3 {
+    left: 50%;
+    background: #8FC320;
+    -webkit-animation-delay: 4.2s;
+    animation-delay: 4.2s;
+}
+
 
 .p7 .c4-2-2 {
     width: 60%;
@@ -1355,12 +1404,6 @@ body {
     animation-delay: 2.1s;
 }
 
-/*.p7 .c4-3 {*/
-    /*-webkit-animation: move4 .7s ease-in-out both;*/
-    /*animation: move4 .7s ease-in-out both;*/
-    /*opacity: 0;*/
-/*}*/
-
 .p7 .c4-3 > div {
     float: right;
     height: 100%;
@@ -1369,10 +1412,6 @@ body {
 .p7 .c4-3 {
     width: 100%;
     height: 35%;
-    /*background: url("../image/p7/stage_1_2.png") no-repeat right;*/
-    /*background-size: 85% 90%;*/
-    /*-webkit-animation-delay: 2.1s;*/
-    /*animation-delay: 2.1s;*/
 }
 
 .p7 .c4-3-1 {
@@ -1385,8 +1424,8 @@ body {
 
 .p7 .c4-3-1-1 {
     position: absolute;
-    right: -35%;
-    top: -25%;
+    right: -33%;
+    top: -30%;
     width: 100%;
     height: 60%;
     background: url("../image/p7/stage_1_6.png") no-repeat 50% 0;
@@ -1720,7 +1759,7 @@ body {
     width: 100%;
     height: 100%;
     z-index: 99;
-    background: rgba(0,0,0,.35) url("../image/p9/arrow.png") no-repeat 85% 2%;
+    background: rgba(0,0,0,.5) url("../image/p9/arrow.png") no-repeat 85% 2%;
     background-size: 130px 150px;
     display: none;
 }
