@@ -63,20 +63,6 @@ body {
     }
 }
 
-@media screen and(device-width: 360px) and(device-height: 640px) {
-    .p3 {
-        background: red!important;
-    }
-    .p3 .c2,
-    .p4 .c2,
-    .p5 .c2,
-    .p6 .c2,
-    .p7 .c2,
-    .p8 .c2 {
-        left: -5%!important;
-    }
-}
-
 @media screen and (min-device-width: 321px) and (max-device-width: 375px) and (min-device-height: 569px) and (max-device-height: 667px) {
     /* iPhone6 */
     .p3 .c2,
@@ -106,6 +92,20 @@ body {
     .p7 .c3-2,
     .p8 .c3-2 {
         top: 14%!important;
+    }
+}
+
+@media screen and (max-device-width: 360px) and (max-device-height: 640px) {
+    .p3 {
+        background: red!important;
+    }
+    .p3 .c2,
+    .p4 .c2,
+    .p5 .c2,
+    .p6 .c2,
+    .p7 .c2,
+    .p8 .c2 {
+        left: -5%!important;
     }
 }
 
