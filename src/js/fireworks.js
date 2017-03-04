@@ -59,7 +59,7 @@ var canvas = document.getElementById('fireworks'),
     timerTick = 0,
     audio = null,
     animationFrameTimer = null,
-    sound = true; // 是否开启声音
+    sound = false; // 是否开启声音
 canvas.width = cw;
 canvas.height = ch;
 
