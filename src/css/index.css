@@ -25,6 +25,112 @@ body {
 }
 
 /*****************************
+ *  @media
+ *****************************/
+@media screen and (max-width: 320px) and (min-height: 480px) {
+
+}
+
+@media screen and (max-width: 320px) and (min-height: 481px) and (max-height: 568px) {
+    .p3 .c2,
+    .p4 .c2,
+    .p5 .c2,
+    .p6 .c2,
+    .p7 .c2,
+    .p8 .c2 {
+        left: -5%!important;
+    }
+    .p3 .c2-1,
+    .p4 .c2-1,
+    .p5 .c2-1,
+    .p6 .c2-1,
+    .p8 .c2-1 {
+        left: 20%!important;
+        top: 40%!important;
+    }
+    .p7 .c2-1 {
+        left: 0!important;
+        top: 25%!important;
+    }
+    .p3 .c3-2,
+    .p4 .c3-2,
+    .p5 .c3-2,
+    .p6 .c3-2,
+    .p7 .c3-2,
+    .p8 .c3-2 {
+        top: 14%!important;
+    }
+}
+
+@media screen and (max-width: 375px) and (min-height: 569px) and (max-height: 667px) {
+    .p3 .c2,
+    .p4 .c2,
+    .p5 .c2,
+    .p6 .c2,
+    .p7 .c2,
+    .p8 .c2 {
+        left: 0!important;
+    }
+    .p3 .c2-1,
+    .p4 .c2-1,
+    .p5 .c2-1,
+    .p6 .c2-1,
+    .p8 .c2-1 {
+        left: 18%!important;
+        top: 50%!important;
+    }
+    .p7 .c2-1 {
+        left: 0!important;
+        top: 45%!important;
+    }
+    .p3 .c3-2,
+    .p4 .c3-2,
+    .p5 .c3-2,
+    .p6 .c3-2,
+    .p7 .c3-2,
+    .p8 .c3-2 {
+        top: 14%!important;
+    }
+    /*.p4 .c4-1-2 {*/
+        /*width: 185%!important;*/
+    /*}*/
+}
+
+@media screen and (max-width: 414px) and (min-height: 668px) and (max-height: 736px) {
+    .p3 .c2,
+    .p4 .c2,
+    .p5 .c2,
+    .p6 .c2,
+    .p7 .c2,
+    .p8 .c2 {
+        left: 5px!important;
+    }
+    .p3 .c2-1,
+    .p4 .c2-1,
+    .p5 .c2-1,
+    .p6 .c2-1,
+    .p8 .c2-1 {
+        left: 16%!important;
+        top: 60%!important;
+    }
+    .p7 .c2-1 {
+        left: 0!important;
+        top: 55%!important;
+    }
+    .p3 .c3-2,
+    .p4 .c3-2,
+    .p5 .c3-2,
+    .p6 .c3-2,
+    .p7 .c3-2,
+    .p8 .c3-2 {
+        top: 14%!important;
+    }
+    /*.p4 .c4-1-2 {*/
+        /*width: 200%!important;*/
+    /*}*/
+}
+
+/*****************************
  *  @fullpage
  *****************************/
 .fullpage {
@@ -127,7 +233,7 @@ body {
 .p1 .c1 {
     position: relative;
     width: 10%;
-    height: 280px;
+    height: 50%;
     background: url("../image/p1/font.png") no-repeat center;
     background-size: contain;
     -webkit-animation-delay: .8s;
@@ -144,10 +250,10 @@ body {
 
 .p1 .c1-1 {
     position: absolute;
-    top: 123px;
+    top: 45%;
     left: 0;
     width: 100%;
-    height: 60px;
+    height: 20%;
     background: url("../image/p1/font_o.png") no-repeat center;
     background-size: contain;
     -webkit-animation-delay: 1.7s;
@@ -333,9 +439,9 @@ body {
 .p3 .c2 {
     position: relative;
     top: 8%;
-    left: 0;
-    width: 250px;
-    height: 100px;
+    left: -10%;
+    width: 70%;
+    height: 15%;
     background: url("../image/p3/title.png") no-repeat center;
     background-size: contain;
     -webkit-animation-delay: .7s;
@@ -350,9 +456,9 @@ body {
 
 .p3 .c2-1 {
     position: absolute;
-    top: 60px;
-    left: 50px;
-    width: 210px;
+    top: 40%;
+    left: 25%;
+    width: 80%;
     height: 43px;
     background: url("../image/p3/font.png") no-repeat center;
     background-size: contain;
@@ -365,8 +471,8 @@ body {
     position: absolute;
     top: 5%;
     left: -45px;
-    width: 170px;
-    height: 180px;
+    width: 45%;
+    height: 35%;
 }
 
 .p3 .c3-1 {
@@ -380,16 +486,16 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background: url("../image/public/table.png") no-repeat left;
+    background: url("../image/public/table.png") no-repeat left top;
     background-size: contain;
 }
 
 .p3 .c3-2 {
     position: absolute;
-    top: 0;
-    left: 54px;
-    width: 38px;
-    height: 100%;
+    top: 20%;
+    left: 34%;
+    width: 20%;
+    height: 50%;
     background: url("../image/public/table_p.png") no-repeat left;
     background-size: contain;
 }
@@ -428,7 +534,7 @@ body {
 
 .p3 .c4-2 {
     width: 100%;
-    height: 65%;
+    height: 60%;
     background: url("../image/p3/stage_1_1.png") no-repeat center;
     background-size: contain;
     -webkit-animation-delay: 1.4s;
@@ -480,9 +586,9 @@ body {
 .p4 .c2 {
     position: relative;
     top: 8%;
-    left: 0;
-    width: 250px;
-    height: 100px;
+    left: -10%;
+    width: 70%;
+    height: 15%;
     background: url("../image/p4/title.png") no-repeat center;
     background-size: contain;
     -webkit-animation-delay: .7s;
@@ -497,10 +603,10 @@ body {
 
 .p4 .c2-1 {
     position: absolute;
-    top: 60px;
-    left: 50px;
-    width: 150px;
-    height: 38px;
+    top: 40%;
+    left: 25%;
+    width: 80%;
+    height: 43px;
     background: url("../image/p4/font.png") no-repeat center;
     background-size: contain;
     -webkit-animation-delay: 1.4s;
@@ -512,8 +618,8 @@ body {
     position: absolute;
     top: 5%;
     left: -45px;
-    width: 170px;
-    height: 180px;
+    width: 45%;
+    height: 35%;
 }
 
 .p4 .c3-1 {
@@ -527,16 +633,16 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background: url("../image/public/table.png") no-repeat left;
+    background: url("../image/public/table.png") no-repeat left top;
     background-size: contain;
 }
 
 .p4 .c3-2 {
     position: absolute;
-    top: 0;
-    left: 54px;
-    width: 38px;
-    height: 100%;
+    top: 20%;
+    left: 34%;
+    width: 20%;
+    height: 50%;
     background: url("../image/public/table_p.png") no-repeat left;
     background-size: contain;
 }
@@ -546,12 +652,13 @@ body {
     top: 40%;
     left: 0;
     width: 100%;
+    height: 15%;
 }
 
 .p4 .c4-1 {
     position: relative;
-    width: 90px;
-    height: 90px;
+    width: 24%;
+    height: 100%;
     margin: 0 auto;
     display: block;
     background: url("../image/p4/pie.png") no-repeat center;
@@ -569,20 +676,20 @@ body {
 
 .p4 .c4-1-1 {
     position: absolute;
-    right: -80px;
-    top: -5px;
-    width: 120px;
-    height: 35px;
+    right: -120%;
+    top: -5%;
+    width: 150%;
+    height: 50%;
     background: url("../image/p4/pie_1.png") no-repeat center;
     background-size: contain;
 }
 
 .p4 .c4-1-2 {
     position: absolute;
-    right: -120px;
-    top: 40px;
-    width: 125px;
-    height: 10px;
+    right: -160%;
+    top: 40%;
+    width: 170%;
+    height: 20%;
     background: url("../image/p4/pie_2.png") no-repeat center;
     background-size: contain;
     -webkit-animation-delay: .7s;
@@ -591,10 +698,10 @@ body {
 
 .p4 .c4-1-3 {
     position: absolute;
-    right: -60px;
-    top: 65px;
-    width: 90px;
-    height: 35px;
+    right: -80%;
+    top: 70%;
+    width: 120%;
+    height: 40%;
     background: url("../image/p4/pie_3.png") no-repeat center;
     background-size: contain;
     -webkit-animation-delay: 1.4s;
@@ -603,10 +710,10 @@ body {
 
 .p4 .c4-1-4 {
     position: absolute;
-    left: -115px;
-    top: 40px;
-    width: 135px;
-    height: 10px;
+    left: -155%;
+    top: 40%;
+    width: 185%;
+    height: 20%;
     background: url("../image/p4/pie_4.png") no-repeat center;
     background-size: contain;
     -webkit-animation-delay: 2.1s;
@@ -664,9 +771,9 @@ body {
 .p5 .c2 {
     position: relative;
     top: 8%;
-    left: 0;
-    width: 250px;
-    height: 100px;
+    left: -10%;
+    width: 70%;
+    height: 15%;
     background: url("../image/p5/title.png") no-repeat center;
     background-size: contain;
     -webkit-animation-delay: .7s;
@@ -681,10 +788,10 @@ body {
 
 .p5 .c2-1 {
     position: absolute;
-    top: 40px;
-    left: 40px;
-    width: 230px;
-    height: 47px;
+    top: 40%;
+    left: 25%;
+    width: 80%;
+    height: 43px;
     background: url("../image/p5/font.png") no-repeat center;
     background-size: contain;
     -webkit-animation-delay: 1.4s;
@@ -696,8 +803,8 @@ body {
     position: absolute;
     top: 5%;
     left: -45px;
-    width: 170px;
-    height: 180px;
+    width: 45%;
+    height: 35%;
 }
 
 .p5 .c3-1 {
@@ -711,16 +818,16 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background: url("../image/public/table.png") no-repeat left;
+    background: url("../image/public/table.png") no-repeat left top;
     background-size: contain;
 }
 
 .p5 .c3-2 {
     position: absolute;
-    top: 0;
-    left: 54px;
-    width: 38px;
-    height: 100%;
+    top: 20%;
+    left: 34%;
+    width: 20%;
+    height: 50%;
     background: url("../image/public/table_p.png") no-repeat left;
     background-size: contain;
 }
@@ -857,9 +964,9 @@ body {
 .p6 .c2 {
     position: relative;
     top: 8%;
-    left: 0;
-    width: 250px;
-    height: 100px;
+    left: -10%;
+    width: 70%;
+    height: 15%;
     background: url("../image/p6/title.png") no-repeat center;
     background-size: contain;
     -webkit-animation-delay: .7s;
@@ -874,10 +981,10 @@ body {
 
 .p6 .c2-1 {
     position: absolute;
-    top: 40px;
-    left: 40px;
-    width: 230px;
-    height: 47px;
+    top: 40%;
+    left: 25%;
+    width: 80%;
+    height: 43px;
     background: url("../image/p6/font.png") no-repeat center;
     background-size: contain;
     -webkit-animation-delay: 1.4s;
@@ -889,8 +996,8 @@ body {
     position: absolute;
     top: 5%;
     left: -45px;
-    width: 170px;
-    height: 180px;
+    width: 45%;
+    height: 35%;
 }
 
 .p6 .c3-1 {
@@ -904,16 +1011,16 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background: url("../image/public/table.png") no-repeat left;
+    background: url("../image/public/table.png") no-repeat left top;
     background-size: contain;
 }
 
 .p6 .c3-2 {
     position: absolute;
-    top: 0;
-    left: 54px;
-    width: 38px;
-    height: 100%;
+    top: 20%;
+    left: 34%;
+    width: 20%;
+    height: 50%;
     background: url("../image/public/table_p.png") no-repeat left;
     background-size: contain;
 }
@@ -1043,9 +1150,9 @@ body {
 .p7 .c2 {
     position: relative;
     top: 8%;
-    left: 0;
-    width: 250px;
-    height: 100px;
+    left: -10%;
+    width: 70%;
+    height: 15%;
     background: url("../image/p7/title.png") no-repeat center;
     background-size: contain;
     -webkit-animation-delay: .7s;
@@ -1060,9 +1167,9 @@ body {
 
 .p7 .c2-1 {
     position: absolute;
-    top: 30px;
-    left: -10px;
-    width: 280px;
+    top: 15%;
+    left: 5%;
+    width: 90%;
     height: 87px;
     background: url("../image/p7/font.png") no-repeat center;
     background-size: contain;
@@ -1075,8 +1182,8 @@ body {
     position: absolute;
     top: 5%;
     left: -45px;
-    width: 170px;
-    height: 180px;
+    width: 45%;
+    height: 35%;
 }
 
 .p7 .c3-1 {
@@ -1090,16 +1197,16 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background: url("../image/public/table.png") no-repeat left;
+    background: url("../image/public/table.png") no-repeat left top;
     background-size: contain;
 }
 
 .p7 .c3-2 {
     position: absolute;
-    top: 0;
-    left: 54px;
-    width: 38px;
-    height: 100%;
+    top: 20%;
+    left: 34%;
+    width: 20%;
+    height: 50%;
     background: url("../image/public/table_p.png") no-repeat left;
     background-size: contain;
 }
@@ -1199,10 +1306,10 @@ body {
 .p8 .c2 {
     position: relative;
     top: 8%;
-    left: 0;
-    width: 250px;
-    height: 100px;
-    background: url("../image/p8/title.png") no-repeat center;
+    left: -10%;
+    width: 70%;
+    height: 15%;
+    background: url("../image/p6/title.png") no-repeat center;
     background-size: contain;
     -webkit-animation-delay: .7s;
     animation-delay: .7s;
@@ -1213,8 +1320,8 @@ body {
     position: absolute;
     top: 5%;
     left: -45px;
-    width: 170px;
-    height: 180px;
+    width: 45%;
+    height: 35%;
 }
 
 .p8 .c3-1 {
@@ -1228,16 +1335,16 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background: url("../image/public/table.png") no-repeat left;
+    background: url("../image/public/table.png") no-repeat left top;
     background-size: contain;
 }
 
 .p8 .c3-2 {
     position: absolute;
-    top: 0;
-    left: 54px;
-    width: 38px;
-    height: 100%;
+    top: 20%;
+    left: 34%;
+    width: 20%;
+    height: 50%;
     background: url("../image/public/table_p.png") no-repeat left;
     background-size: contain;
 }
