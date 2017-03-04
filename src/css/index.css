@@ -119,12 +119,9 @@ body {
     background-size: 100% 100%;
 }
 
-.p1 .c1,
-.p1 .c1-1 {
+.p1 .c1 {
     -webkit-animation: dragTop .7s ease-in-out both;
     animation: dragTop .7s ease-in-out both;
-    text-align: center;
-    color: #fff;
 }
 
 .p1 .c1 {
@@ -134,12 +131,15 @@ body {
     background: url("../image/p1/font.png") no-repeat center;
     background-size: contain;
     -webkit-animation-delay: .8s;
-    -moz-animation-delay: .8s;
-    -ms-animation-delay: .8s;
     animation-delay: .8s;
     font-size: 40px;
     top: 35%;
     left: 45%;
+}
+
+.p1 .c1-1 {
+    -webkit-animation: scale2 .7s ease-in-out both;
+    animation: scale2 .7s ease-in-out both;
 }
 
 .p1 .c1-1 {
@@ -150,8 +150,8 @@ body {
     height: 60px;
     background: url("../image/p1/font_o.png") no-repeat center;
     background-size: contain;
-    -webkit-animation-delay: 1.2s;
-    animation-delay: 1.2s;
+    -webkit-animation-delay: 1.7s;
+    animation-delay: 1.7s;
 }
 
 .p1 .c3 {
@@ -279,8 +279,6 @@ body {
     background: url("../image/p2/swallow_small.png") no-repeat center;
     background-size: contain;
     -webkit-animation: fly4 4s infinite linear;
-    -moz-animation: fly4 4s infinite linear;
-    -ms-animation: fly4 4s infinite linear;
     animation: fly4 4s infinite linear;
 }
 
@@ -294,10 +292,8 @@ body {
     transform: scale(1);
     background: url("../image/p2/character.png") no-repeat center;
     background-size: contain;
-    -webkit-animation: move 4s linear;
-    -moz-animation: move 4s linear;
-    -ms-animation: move 4s linear;
-    animation: move 4s linear;
+    -webkit-animation: move 3s linear;
+    animation: move 3s linear;
 }
 
 .p2 .c7 {
@@ -1202,19 +1198,32 @@ body {
     height: 60%;
 }
 
+.p8 .c4-2-i-1,
+.p8 .c4-2-i-2,
+.p8 .c4-2-i-3 {
+    -webkit-animation: scale .7s ease-in-out both;
+    animation: scale .7s ease-in-out both;
+}
+
 .p8 .c4-2-i-1 {
     background: url("../image/p8/stage_1_1_i.png") no-repeat center;
     background-size: 70%;
+    -webkit-animation-delay: 1.4s;
+    animation-delay: 1.4s;
 }
 
 .p8 .c4-2-i-2 {
     background: url("../image/p8/stage_1_2_i.png") no-repeat center;
     background-size: 70%;
+    -webkit-animation-delay: 1.7s;
+    animation-delay: 1.7s;
 }
 
 .p8 .c4-2-i-3 {
     background: url("../image/p8/stage_1_3_i.png") no-repeat center;
     background-size: 70%;
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s;
 }
 
 .p8 .c4-2-t {
