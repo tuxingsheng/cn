@@ -747,10 +747,60 @@ body {
 }
 
 .p4 .c5-2 {
+    position: relative;
     width: 100%;
     height: 50%;
-    background: url(../image/p4/tree.png) no-repeat center;
-    background-size: contain;
+    background: url(../image/p4/tree_bg.png) no-repeat center;
+    background-size: 100% 100%;
+}
+
+.p4 .c5-2 > div {
+    position: absolute;
+    left: 3.5%;
+    width: 100%;
+    bottom: 0;
+}
+
+.p4 .c5-2 > div img {
+    width: 100%;
+    height: 100%;
+}
+
+.p4 .c5-2-1,
+.p4 .c5-2-2,
+.p4 .c5-2-3,
+.p4 .c5-2-4 {
+    -webkit-animation: dragTop .7s ease-in-out both;
+    animation: dragTop .7s ease-in-out both;
+}
+
+.p4 .c5-2-1 {
+    height: 40%;
+    top: 10%;
+    -webkit-animation-delay: .7s;
+    animation-delay: .7s;
+}
+
+
+.p4 .c5-2-2 {
+    height: 40%;
+    top: 30%;
+    -webkit-animation-delay: 1.4s;
+    animation-delay: 1.4s;
+}
+
+.p4 .c5-2-3 {
+    height: 60%;
+    top: 5%;
+    -webkit-animation-delay: 2.1s;
+    animation-delay: 2.1s;
+}
+
+.p4 .c5-2-4 {
+    height: 40%;
+    top: 35%;
+    -webkit-animation-delay: 2.8s;
+    animation-delay: 2.8s;
 }
 
 /*****************************
@@ -758,7 +808,7 @@ body {
  *****************************/
 
 .p5 {
-    background: url("../image/public/bg.jpg") no-repeat center;
+    background: url("../image/public/bg.jpg") no-repeat center left;
     background-size: 100% 100%;
 }
 
@@ -1132,6 +1182,26 @@ body {
     background-size: 35%;
 }
 
+.p6 .c4-2-1 {
+    width: 100%;
+    height: 25%;
+    background: url("../image/p6/hammer.png") no-repeat 50% 50%;
+    background-size: contain;
+    margin-top: 4%;
+    -webkit-animation: hammer 1.4s ease-in-out both;
+    animation: hammer 1.4s ease-in-out both;
+    -webkit-animation-delay: 4.9s;
+    animation-delay: 4.9s;
+}
+
+.p6 .c4-2-2 {
+    width: 100%;
+    height: 8%;
+    background: url("../image/p6/hammer_b.png") no-repeat 48% 50%;
+    background-size: contain;
+    margin-top: 1%;
+}
+
 /*****************************
  *  @pages7
  *****************************/
@@ -1250,34 +1320,92 @@ body {
 }
 
 .p7 .c4-2 {
-    -webkit-animation: move5 .7s ease-in-out both;
-    animation: move5 .7s ease-in-out both;
-    opacity: 0;
+
 }
 
 .p7 .c4-2 {
     width: 100%;
     height: 35%;
-    background: url("../image/p7/stage_1_1.png") no-repeat left;
-    background-size: 85% 90%;
     margin-top: 5%;
+}
+
+.p7 .c4-2 > div {
+    float: left;
+    opacity: 0;
+    height: 100%;
+}
+
+.p7 .c4-2-1 {
+    width: 30%;
+    background: url("../image/p7/stage_1_1.png") no-repeat left;
+    background-size: 80%;
+    -webkit-animation: move5 .7s ease-in-out both;
+    animation: move5 .7s ease-in-out both;
     -webkit-animation-delay: 1.4s;
     animation-delay: 1.4s;
 }
 
-.p7 .c4-3 {
+.p7 .c4-2-2 {
+    width: 60%;
+    background: url("../image/p7/stage_1_2.png") no-repeat right;
+    background-size: contain;
     -webkit-animation: move4 .7s ease-in-out both;
     animation: move4 .7s ease-in-out both;
-    opacity: 0;
+    -webkit-animation-delay: 2.1s;
+    animation-delay: 2.1s;
+}
+
+/*.p7 .c4-3 {*/
+    /*-webkit-animation: move4 .7s ease-in-out both;*/
+    /*animation: move4 .7s ease-in-out both;*/
+    /*opacity: 0;*/
+/*}*/
+
+.p7 .c4-3 > div {
+    float: right;
+    height: 100%;
 }
 
 .p7 .c4-3 {
     width: 100%;
     height: 35%;
-    background: url("../image/p7/stage_1_2.png") no-repeat right;
-    background-size: 85% 90%;
-    -webkit-animation-delay: 2.1s;
-    animation-delay: 2.1s;
+    /*background: url("../image/p7/stage_1_2.png") no-repeat right;*/
+    /*background-size: 85% 90%;*/
+    /*-webkit-animation-delay: 2.1s;*/
+    /*animation-delay: 2.1s;*/
+}
+
+.p7 .c4-3-1 {
+    position: relative;
+    width: 35%;
+    margin-right: 10%;
+    background: url("../image/p7/stage_1_5.png") no-repeat 90% 70%;
+    background-size: 90%;
+}
+
+.p7 .c4-3-1-1 {
+    position: absolute;
+    right: -35%;
+    top: -25%;
+    width: 100%;
+    height: 60%;
+    background: url("../image/p7/stage_1_6.png") no-repeat 50% 0;
+    background-size: contain;
+    opacity: 0;
+    -webkit-animation: hammer2 .7s ease-in-out both;
+    animation: hammer2 .7s ease-in-out both;
+    -webkit-animation-delay: .7s;
+    animation-delay: .7s;
+}
+
+.p7 .c4-3-2 {
+    width: 50%;
+    background: url("../image/p7/stage_1_4.png") no-repeat 50% 0;
+    background-size: contain;
+    -webkit-animation: move7 .7s ease-in-out both;
+    animation: move7 .7s ease-in-out both;
+    -webkit-animation-delay: 1.4s;
+    animation-delay: 1.4s;
 }
 
 .p7 .c4-4 {
