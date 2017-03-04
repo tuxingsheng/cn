@@ -201,8 +201,8 @@ body {
 .p0 .c1 {
     width: 80%;
     height: 30%;
-    -webkit-transform: translate(12%, 120%);
-    transform: translate(12%, 120%);
+    -webkit-transform: translate(12%, 100%);
+    transform: translate(12%, 100%);
 }
 
 .p0 .c1-1 {
@@ -1396,7 +1396,7 @@ body {
 
 .p7 .c4-2-2 {
     width: 60%;
-    background: url("../image/p7/stage_1_2.png") no-repeat right;
+    background: url("../image/p7/stage_1_2.png") no-repeat 0 0;
     background-size: contain;
     -webkit-animation: move4 .7s ease-in-out both;
     animation: move4 .7s ease-in-out both;
@@ -1420,6 +1420,10 @@ body {
     margin-right: 10%;
     background: url("../image/p7/stage_1_5.png") no-repeat 90% 70%;
     background-size: 90%;
+    -webkit-animation: opacityd .7s ease-in-out both;
+    animation: opacityd .7s ease-in-out both;
+    -webkit-animation-delay: 2.8s;
+    animation-delay: 2.8s;
 }
 
 .p7 .c4-3-1-1 {
@@ -1433,8 +1437,8 @@ body {
     opacity: 0;
     -webkit-animation: hammer2 .7s ease-in-out both;
     animation: hammer2 .7s ease-in-out both;
-    -webkit-animation-delay: .7s;
-    animation-delay: .7s;
+    -webkit-animation-delay: 3.5s;
+    animation-delay: 3.5s;
 }
 
 .p7 .c4-3-2 {
@@ -1443,8 +1447,8 @@ body {
     background-size: contain;
     -webkit-animation: move7 .7s ease-in-out both;
     animation: move7 .7s ease-in-out both;
-    -webkit-animation-delay: 1.4s;
-    animation-delay: 1.4s;
+    -webkit-animation-delay: 4.2s;
+    animation-delay: 4.2s;
 }
 
 .p7 .c4-4 {
