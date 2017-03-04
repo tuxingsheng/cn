@@ -965,7 +965,8 @@ body {
 }
 
 .p6 .c4-1-2-1 {
-    height: 22%;
+    height: 21%;
+    margin-bottom: 1%;
     background: url("../image/p6/stage_1_1.png") no-repeat 0 50%;
     background-size: contain;
     -webkit-animation-delay: 1.4s;
@@ -973,7 +974,8 @@ body {
 }
 
 .p6 .c4-1-2-2 {
-    height: 22%;
+    height: 21%;
+    margin-bottom: 1%;
     background: url("../image/p6/stage_1_2.png") no-repeat 0 50%;
     background-size: contain;
     -webkit-animation-delay: 2.1s;
@@ -981,7 +983,8 @@ body {
 }
 
 .p6 .c4-1-2-3 {
-    height: 22%;
+    height: 21%;
+    margin-bottom: 1%;
     background: url("../image/p6/stage_1_3.png") no-repeat 0 50%;
     background-size: contain;
     -webkit-animation-delay: 2.8s;
@@ -989,7 +992,8 @@ body {
 }
 
 .p6 .c4-1-2-4 {
-    height: 22%;
+    height: 21%;
+    margin-bottom: 1%;
     background: url("../image/p6/stage_1_4.png") no-repeat 0 50%;
     background-size: contain;
     -webkit-animation-delay: 3.5s;
