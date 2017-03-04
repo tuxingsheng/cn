@@ -63,7 +63,7 @@ body {
     }
 }
 
-@media screen and (max-width: 375px) and (min-height: 569px) and (max-height: 667px) {
+@media screen and (min-width: 321px) and (max-width: 375px) and (min-height: 569px) and (max-height: 667px) {
     /* iPhone6 */
     .p3 .c2,
     .p4 .c2,
@@ -95,7 +95,7 @@ body {
     }
 }
 
-@media screen and (max-width: 414px) and (min-height: 668px) and (max-height: 736px) {
+@media screen and (min-width: 376px) and (max-width: 414px) and (min-height: 668px) and (max-height: 736px) {
     /* iPhone6 plus */
     .p3 .c2,
     .p4 .c2,
